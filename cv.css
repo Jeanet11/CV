@@ -1,0 +1,11 @@
+#cv {
+	display: flex;
+}
+
+#titre {
+	text-align: center;
+}
+
+#presentation {
+	background-color: "grey";
+}
