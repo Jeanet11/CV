@@ -1,11 +1,22 @@
-#cv {
+
+header {
 	display: flex;
 }
 
-#titre {
-	text-align: center;
+.cv {
+	display: flex;
 }
 
-#presentation {
-	background-color: "grey";
+.titre {
+	text-align: center;
+	width: 70%;
+}
+
+.image {
+	border: solid, black;
+	width: 20%;
+}
+
+.presentation {
+	font-family: "calibri";
 }
