@@ -1,22 +1,86 @@
+.cv {
+	display: flex;
+	
+}
 
 header {
 	display: flex;
+	width: 750px;
+	 justify-content: space-around;
+	 /*border: solid red;*/
+	 padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+
 }
 
-.cv {
-	display: flex;
-}
-
-.titre {
+/*.titre {
+	
 	text-align: center;
-	width: 70%;
-}
+	width: 90%;
+}*/
 
-.image {
-	border: solid, black;
-	width: 20%;
+
+img {
+	border: solid grey;
+	justify-content: flex-end;
+	
+	
 }
 
 .presentation {
-	font-family: "calibri";
+	flex-direction: column;
+	font-family: "arial", serif;
+	
+	/*padding-right: 5px;
+	padding-left: 5px;*/
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+
+}
+
+.presentation ul li {
+	list-style: none;
+}
+
+.nom {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.contenu {
+	width: 750px;
+	/*justify-content: flex-end;*/
+	
+	/*border: solid red;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+	
+}
+
+.metier {
+	width: 80%;
+	text-align: center;
+	font-size: 3em;
+	/*border: solid grey;*/
+	
+}
+
+.titreCategorie {
+	font-style: italic;
+	background-color: grey;
+	color: white;
+	font-size: 1.3em;
+}
+
+main {
+	/*border: solid blue;*/
+	justify-content: flex-end;
+	width: 850px;
+	font-family: "arial";
+	
+	
 }
