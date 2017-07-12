@@ -1,11 +1,27 @@
+body {
+	font-family: 'Average Sans', sans-serif;
+	font-size: 1.2em;
+	color:black;
+	background-color:white;
+	background-image: url(image-fond1.jpg);
+	background-repeat:  no-repeat;
+	box-shadow: 6px 6px 6px black inset;
+	background-size: cover;
+	width: 900px;
+	margin: auto;
+
+}
+
+
 .cv {
 	display: flex;
-	
+
+		
 }
 
 header {
 	display: flex;
-	width: 750px;
+	
 	 justify-content: space-around;
 	 /*border: solid red;*/
 	 padding-left: 10px;
@@ -22,42 +38,63 @@ header {
 
 
 img {
-	border: solid grey;
-	justify-content: flex-end;
+	
+	align-items:   center;
+	border-radius: 100%;
+	box-shadow: 2px #8DB3AE;
+	max-width: 50%;
+	height: auto;
+
+
+
 	
 	
 }
 
 .presentation {
+	display: flex;
 	flex-direction: column;
 	font-family: "arial", serif;
+
+	padding-top: 10px;
+	padding-right: 30px;
 	
-	/*padding-right: 5px;
-	padding-left: 5px;*/
+	padding-left: 30px;
 	width: 20%;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	background-color: pink;
+	background: url(image-presentation1.jpg);
+	color: white;
+	border-radius: 5%;
+	width: 20%;
+
 
 }
 
 .presentation ul li {
 	list-style: none;
+	color: #D4D4ED;
+	justify-content:  flex-start;
+
+
 }
 
 .nom {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-weight: bold;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	
 }
 
 .contenu {
-	width: 750px;
+	/*width: 750px;*/
 	/*justify-content: flex-end;*/
 	
 	/*border: solid red;*/
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: auto;
+	/*margin: auto;*/
 	
 }
 
@@ -65,22 +102,45 @@ img {
 	width: 80%;
 	text-align: center;
 	font-size: 3em;
+	/*font-style: italic;*/
 	/*border: solid grey;*/
+	/*font-family: 'Righteous', cursive;*/
+	font-family: "Lobster", cursive;
+	color:#B2B2C0;
+	text-shadow: 8px 8px 10px   #161286;
 	
 }
 
 .titreCategorie {
 	font-style: italic;
-	background-color: grey;
-	color: white;
+	color: #D777CA;
 	font-size: 1.3em;
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Lemonada', cursive;
+	/*text-align: center;*/
+	border-radius: 2%;
+	border-bottom: solid  #D777CA ;
+
+
+
 }
 
 main {
 	/*border: solid blue;*/
 	justify-content: flex-end;
-	width: 850px;
+	width: 80%;
 	font-family: "arial";
-	
-	
+
+}
+
+.liste {
+	color: #D4D4ED;
+}
+
+@media all and (max-width: 1024px)
+{
+ .cv
+    {
+      width: auto;
+    }
 }
