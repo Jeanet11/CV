@@ -1,13 +1,13 @@
 body {
 	font-family: 'Average Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.em;
 	color:black;
 	background-color:white;
 	background-image: url(image-fond1.jpg);
 	background-repeat:  no-repeat;
 	box-shadow: 6px 6px 6px black inset;
 	background-size: cover;
-	width: 900px;
+	width: 1200px;
 	margin: auto;
 
 }
@@ -37,54 +37,68 @@ header {
 }*/
 
 
-img {
-	
-	align-items:   center;
-	border-radius: 100%;
-	box-shadow: 2px #8DB3AE;
-	max-width: 50%;
-	height: auto;
 
-
-
-	
-	
-}
 
 .presentation {
 	display: flex;
 	flex-direction: column;
-	font-family: "arial", serif;
+	
 
 	padding-top: 10px;
 	padding-right: 30px;
 	
 	padding-left: 30px;
 	width: 20%;
-	justify-content: flex-start;
+	
 	align-items: center;
 	background: url(image-presentation1.jpg);
 	color: white;
 	border-radius: 5%;
 	width: 20%;
-
-
+	
 }
 
-.presentation ul li {
+img {
+	
+	align-items:  center;
+	border-radius: 100%;
+	box-shadow: 2px #8DB3AE;
+	max-width: 60%;
+	height: auto;
+	
+}
+
+.coord {
+	
+	align-items:  flex-start;
 	list-style: none;
 	color: #D4D4ED;
 	justify-content:  flex-start;
-
-
+	padding-right: 30px;
+	font-family: "arial", serif;
+	
 }
 
+
+
+
 .nom {
-	font-size: 1.4em;
+	
+	font-size: 1.8em;
 	font-weight: bold;
 	font-family: 'Concert One', cursive;
 	text-align: center;
+	color: #E8CFE4;
+}
+
+.lien {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	
+	height: 50%;
+
 }
 
 .contenu {
